@@ -1,0 +1,27 @@
+import java.util.Map;
+import com.json.parsers.JSONParser;
+import com.json.parsers.JsonParserFactory;
+
+public class json {
+		String input = "{ 'key1': 'value1','key2': 'value2','key3': 'value3' }";
+	
+	public json() {
+	
+		
+		
+		JsonParserFactory factory=JsonParserFactory.getInstance();
+		 JSONParser parser=factory.newJsonParser();
+		 Map jsonData=parser.parseJson(input);
+	
+		 String value=(String)jsonData.get("key2");
+		 System.out.println(value);
+		 
+	}
+	
+	public static void Main(){
+		
+		json j = new json();
+	}
+	
+	
+}

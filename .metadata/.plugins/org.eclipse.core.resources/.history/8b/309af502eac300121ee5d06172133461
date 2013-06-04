@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+
+public class DatabaseInteraction {
+	
+	public DatabaseInteraction() {
+		//read from feed file
+		
+	}
+	
+	public ArrayList getAllTasks() {
+		ArrayList tasks = new ArrayList();
+		
+		ArrayList t1 = new ArrayList();
+		t1.add("do homework");
+		
+		
+		tasks.add(t1);
+		tasks.add(t2);
+		
+		return tasks;	
+	}
+}

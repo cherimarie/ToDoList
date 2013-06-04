@@ -1,0 +1,12 @@
+
+public class TaskList<string> {
+	public TaskList () {
+		
+		
+	}
+	
+public TaskList (string filterType, string filter) {
+		
+		
+	}
+}
