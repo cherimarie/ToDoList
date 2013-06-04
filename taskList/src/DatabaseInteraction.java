@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Date;
 
+//do we want to use ArrayList or List<Task> ???
 
 public class DatabaseInteraction {
 	
